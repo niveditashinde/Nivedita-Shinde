@@ -13,28 +13,7 @@
   woopra.track();
 </script>
 <!-- End of Woopra Code -->
-<script>
-  /* Place this on a template where a customer initially is identified
-     or after authentication. (Important: Update these values) */
 
-  woopra.identify({
-    //email: "<<YOUR CUSTOMER EMAIL HERE>>",
-    name: "<<YOUR CUSTOMER NAME HERE>>",
-    company: "<<YOUR CUSTOMER COMPANY HERE>>"
-  });
-
-  // The identify code should be added before the "track()" function
-  woopra.track();
-</script>
-<script>
-  /* Below is an example of a "payment" event that is sent when 
-     you process a payment for a customer. */
-​
-  woopra.track("payment", {
-    amount: "49.95",
-    currency: "USD"
-  });
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
