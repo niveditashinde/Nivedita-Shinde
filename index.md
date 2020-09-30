@@ -7,7 +7,7 @@
   })("woopra");
 
   woopra.config({
-      domain: 'https://niveditashinde.github.io/main/'
+      domain: 'niveditashinde.github.io'
   });
   woopra.track();
 </script>
