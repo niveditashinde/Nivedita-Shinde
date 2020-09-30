@@ -1,17 +1,15 @@
 <html>
  <head>
-  <!-- Start of Woopra Code -->
-<script type="text/javascript">
-  (function(){
-    var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
-  })("woopra");
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179281675-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  woopra.config({
-      domain: 'https://niveditashinde.github.io/main/'
-  });
-  woopra.track();
+  gtag('config', 'UA-179281675-1');
 </script>
-<!-- End of Woopra Code -->
+
   </head>
   <body>
  <h1> Hello world</h1>
